@@ -1,0 +1,69 @@
+#owl-demo .item{
+    width:100%;
+    border-radius: 30px !important;
+background-image: linear-gradient(to right,#6CBCFC, #458DFC);;
+padding: 45px 0px;
+margin: auto;
+color: White !important;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+text-align: center;
+}
+#owl-demo .item h2{
+  color: White !important;
+}
+
+/* to remove slide effect  css */
+.animated  {
+  -webkit-animation-duration : 0 ms  !important;
+  animation-duration : 0 ms  !important;
+  -webkit-animation-fill-mode : both  !important;
+  animation-fill-mode : both  !important;
+}  
+
+
+.fadeOut  {
+  -webkit-animation-name : fadeOut  ;
+  animation-name : fadeOut  ;
+}  
+@-webkit-keyframes  fadeOut  {
+  0% {
+    opacity : 0   ;
+  }  
+  100% {
+    opacity : 0   ;
+  }  
+}
+@keyframes  fadeOut  {
+  0% {
+    opacity : 0   ;
+  }  
+  100% {
+    opacity : 0   ;
+  }  
+}
+
+.box-header {
+ font-size: 18px;
+ font-weight: 600;
+ margin-bottom: 20px;
+ display: flex;
+ align-items: center;
+ text-transform: uppercase;
+}
+.box-header img {
+margin-left: 10%;
+border-radius: 50%;
+margin-right: 20px;
+height: 136px;
+width: 161px !important;
+border: 7px solid white;
+}
+#owl-demo hr{
+ width: 20%;
+ color: white;
+ opacity: 2;
+ margin-inline:auto;
+ 
+}
